@@ -1,12 +1,3 @@
-if gg.getFile():match("[^/]+$") ~= "LasTPoinTVIP-f1720.lua" then
-gg.copyText("LasTPoinTVIP-f1720.lua")
-gg.setVisible(true)
-gg.alert("Nᴀᴍᴇ Cᴏᴘɪᴇᴅ!")
-for khba = 1,1000000 do
-gg.alert("⚠️ RENAME DETECTED! ⚠️")
-gg.processKill()
-end
-end
 WRSK = 1
 if WRSK == 0 then
 for khba = 1,1000000 do
