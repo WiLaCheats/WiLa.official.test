@@ -44,12 +44,12 @@ end
 end
 end
 if bit == 32 then
-bypass1 = 0x8AAEB8
-bypass2 = 0x565998
-bypass3 = 0x8999A8
-bypass4 = 0xAF30C0
-bypass5 = 0xAF316C
-bypass6 = 0x532E14
-bypass7 = 0x532CB4
-bypass8 = 0x7F6858
+bypass1 = baseoffset + 0x8AAEB8
+bypass2 = baseoffset + 0x565998
+bypass3 = baseoffset + 0x8999A8
+bypass4 = baseoffset + 0xAF30C0
+bypass5 = baseoffset + 0xAF316C
+bypass6 = baseoffset + 0x532E14
+bypass7 = baseoffset + 0x532CB4
+bypass8 = baseoffset + 0x7F6858
 end
