@@ -43,7 +43,7 @@ os["exit"]()
 end
 end
 end
-if bit == 32 then 
+if bit == 32 then
 bypass1 = 0x8AAEB8
 bypass2 = 0x565998
 bypass3 = 0x8999A8
@@ -52,10 +52,4 @@ bypass5 = 0xAF316C
 bypass6 = 0x532E14
 bypass7 = 0x532CB4
 bypass8 = 0x7F6858
-bitselect = "❏ 32 ʙɪᴛ ᴍᴇɴᴜ"
-LASTVIP32()
-end
-if bit == 64 then
-bitselect = "❏ 64 ʙɪᴛ ᴍᴇɴᴜ"
-LASTVIP64()
 end
