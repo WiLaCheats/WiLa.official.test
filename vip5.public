@@ -1,2 +1,3 @@
 WRSK = 1
-local Token = {"700"}
+Name = "WiLa"
+Token = "700"
