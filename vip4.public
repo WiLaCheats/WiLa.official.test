@@ -40,15 +40,6 @@ gg.alert("⚠️ libil2cpp.so Dosyası Bulunamadı ⚠️\n⚠️ Scripti Tekrar
 os["exit"]()
 end
 end
-if xxx == 1 then
-_ENV["API"] = gg.makeRequest("https://raw.githubusercontent.com/WiLaCheats/WiLaOfficial.public/main/vip4.public").content
-if not _ENV["API"] then
-gg["alert"]("⚠️ Offline Görünüyorsunuz Ne Yazikki Script Açılamıyor ⚠️")
-return _ENV["os"]["exit"]()
-else
-pcall(load(API))
-end
-end
 if bit == 32 then
 bypass1 = 0x8ABEB8
 bypass2 = 0x566998
