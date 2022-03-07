@@ -2,6 +2,7 @@
 WRSK = 1
 Name = {"WiLa"}
 Token = {"700"}
+if WRCJ == 1 then
 bit = 31
 if bit == 31 then
 gg.setRanges(gg.REGION_CODE_APP)
@@ -131,4 +132,5 @@ ptban1 = 0xA223F8 --get_issinglemember
 ptban2 = 0xA22D44 --setstatus
 plywhlbn = 0xA22FCC --setrankedenabled
 dambbots = 0xCDA1C4 --isvalidtarget
+end
 end
