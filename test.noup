@@ -1,7 +1,7 @@
 --discord.gg/wila ----- Made By 🔱 LasTPoinT#4361 & Wilz#0422 🔱
 WRSK = 1
-Name = "WiLa"
-Token = "700"
+Name = {"WiLa"}
+Token = {"700"}
 bit = 31
 if bit == 31 then
 gg.setRanges(gg.REGION_CODE_APP)
