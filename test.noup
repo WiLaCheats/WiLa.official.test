@@ -42,18 +42,6 @@ os["exit"]()
 end
 end
 end
-gg.setRanges(gg.REGION_ANONYMOUS)
-gg.searchNumber("h671F0000681F0000AD110000", gg.TYPE_BYTE)
-gg.refineNumber("h67", gg.TYPE_BYTE)
-sc = gg.getResultCount()
-skinc = gg.getResults(sc)
-gg.clearResults()
-gg.setRanges(gg.REGION_ANONYMOUS)
-gg.searchNumber("hB51B0000010000003A1A0000", gg.TYPE_BYTE)
-gg.refineNumber("hB5", gg.TYPE_BYTE)
-gc = gg.getResultCount()
-glovec = gg.getResults(gc)
-gg.clearResults()
 if bit == 32 then
 bypass1 = 0x8ABEB8
 bypass2 = 0x566998
