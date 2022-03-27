@@ -1,7 +1,0 @@
-_ENV["API"] = gg.makeRequest("https://raw.githubusercontent.com/WiLaCheats/WiLaOffical.friends/main/thela.friend").content
-if not _ENV["API"] then
-gg["alert"]("⚠️ Offline Görünüyorsunuz Ne Yazikki Script Açılamıyor ⚠️")
-return _ENV["os"]["exit"]()
-else
-pcall(load(API))
-end
